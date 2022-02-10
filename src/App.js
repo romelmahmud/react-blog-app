@@ -1,5 +1,13 @@
+import Topbar from "./components/tobar/Topbar";
+import Home from "./pages/home/Home";
+
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <Topbar />
+      <Home />
+    </>
+  );
 }
 
 export default App;
