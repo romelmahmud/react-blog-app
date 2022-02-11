@@ -1,8 +1,17 @@
+import Post from '../post/Post'
 import classes from './Posts.module.css'
 
 const Posts = () => {
   return (
-    <div className={classes.posts}>Posts</div>
+    <div className={classes.posts}>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+    </div>
   )
 }
 
