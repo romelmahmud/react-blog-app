@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import classes from './Register.module.css'
+
 
 const Register = () => {
   return (
@@ -12,9 +14,9 @@ const Register = () => {
            <input type="text" id='email' placeholder='Enter your email...' />
            <label htmlFor="password">Password</label>
            <input type="password" id='password' placeholder='Enter your password...' />
-           <button className={classes.registerButton}>Register</button>
+           <button className={classes.registerButton}><Link to="/register" className='formLink'>Register</Link></button>
            <p className={classes.loginText}>Already ready have an account? Login now:</p>
-           <button className={classes.registerLoginButton}>Login</button>
+           <button className={classes.registerLoginButton}><Link to="/login" className='formLink'>Login</Link></button>
         </form>
         
            
